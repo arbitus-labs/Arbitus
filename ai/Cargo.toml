@@ -5,7 +5,7 @@ edition.workspace = true
 authors.workspace = true
 description = "AI intent processing for Orbitus blockchain"
 license.workspace = true
-
+ 
 [dependencies]
 orbitus-core = { path = "../core" }
 tokio = { workspace = true }
