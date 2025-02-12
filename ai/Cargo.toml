@@ -1,0 +1,30 @@
+[package]
+name = "orbitus-ai"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+description = "AI intent processing for Orbitus blockchain"
+license.workspace = true
+
+[dependencies]
+orbitus-core = { path = "../core" }
+tokio = { workspace = true }
+async-trait = { workspace = true }
+futures = { workspace = true }
+thiserror = { workspace = true }
+anyhow = { workspace = true }
+tracing = { workspace = true }
+serde = { workspace = true }
+serde_json = { workspace = true }
+rand = { workspace = true }
+tch = "0.13"  # PyTorch bindings
+tokenizers = "0.13"  # Hugging Face tokenizers
+rust-bert = "0.20"  # Transformer models
+
+[dev-dependencies]
+tokio-test = "0.4"
+criterion = "0.5"
+
+[[bench]]
+name = "intent_processing"
+harness = false

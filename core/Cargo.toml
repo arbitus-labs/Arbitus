@@ -1,0 +1,32 @@
+[package]
+name = "orbitus-core"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+description = "Core implementation of the Orbitus blockchain"
+license.workspace = true
+
+[dependencies]
+tokio = { workspace = true }
+async-trait = { workspace = true }
+futures = { workspace = true }
+thiserror = { workspace = true }
+anyhow = { workspace = true }
+tracing = { workspace = true }
+serde = { workspace = true }
+serde_json = { workspace = true }
+bincode = { workspace = true }
+rand = { workspace = true }
+sha2 = { workspace = true }
+blake3 = { workspace = true }
+libp2p = { workspace = true }
+rocksdb = { workspace = true }
+
+[dev-dependencies]
+tokio-test = "0.4"
+proptest = "1.2"
+criterion = "0.5"
+
+[[bench]]
+name = "pow_benchmark"
+harness = false
