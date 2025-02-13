@@ -15,7 +15,8 @@ The increasing demand for AI computation and the need for decentralized, transpa
 - Peer-to-peer communication protocol
 - Node discovery and management
 - Data synchronization mechanisms
-- Network security measures
+- Network security  measures
+  
 
 #### 2.2 Consensus Layer
 - Custom proof-of-work algorithm
@@ -26,7 +27,7 @@ The increasing demand for AI computation and the need for decentralized, transpa
 #### 2.3 AI Processing Layer
 - Intent recognition system
 - Distributed computation framework
-- Result verification protocol
+- Result verification  protocol
 - Resource management
 
 ### 3. Consensus Mechanism
