@@ -171,8 +171,7 @@ impl Block {
             return false;
         }
 
-        // Validate signature
-        // TODO: Implement signature validation
+        // Validate signature (TODO: Implement signature validation)
         true
     }
 
@@ -185,8 +184,7 @@ impl Block {
             return false;
         }
 
-        // Validate proof
-        // TODO: Implement proof validation
+        // Validate proof (TODO: Implement proof validation)
         true
     }
 }
