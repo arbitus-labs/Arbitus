@@ -72,7 +72,7 @@ impl BlockchainState {
     }
 }
 
-#[derive(Debug, Clone)]
+#[derive(Debug, Clone, Default)]
 pub struct Config {
     pub storage_path: String,
     pub network_config: network::Config,
